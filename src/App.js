@@ -47,15 +47,15 @@ const handleSubmit = (e) => {
         <div className = "divTable">
         <div className = "divTableBody">
         <div className = "divTableRow">
-          <div className = "divTableCell">Type</div>
+          <div className = "divTableCell">Tipo</div>
           <div className = "divTableCell">{pokemonType}</div>
         </div>
         <div className = "divTableRow">
-          <div className = "divTableCell">Height</div>
+          <div className = "divTableCell">Altura</div>
           <div className = "divTableCell">{" "}{Math.round(data.height)/10} mts</div>
         </div>
         <div className = "divTableRow">
-          <div className = "divTableCell">Weight</div>
+          <div className = "divTableCell">Peso</div>
           <div className = "divTableCell">{" "}{Math.round(data.weight)/10} kgs</div>
         </div>
         <div className = "divTableRow">
